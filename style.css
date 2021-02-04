@@ -1,22 +1,37 @@
+body{
+	background:linear-gradient(to bottom, red,yellow)
+}
+
+
 .m{
 	
-	height:1000px;
-	width:1000px;
+	height:100vh;
+	width:100%;
+	 
 }
 
 .a{
 	width:100px;
 	height:100px;
-	background-color:blue;
+	color:cornflowerblue;
+	text-align:center;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	background:rgba(255,255,255,0.1);
+	backdrop-filter:blur(25px);
 	animation-name:sadu;
 	animation-duration:4s;
 	animation-iteration-count:infinite;
 	animation-delay:1s;
 	position:relative;
-	 
+	transform:translate(-50,-50);
 	/*animation-direction:alternate;*/
 	
 	
+}
+p{
+	margin:
 }
 div:hover{
 	 
